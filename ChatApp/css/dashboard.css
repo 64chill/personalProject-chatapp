@@ -1,0 +1,54 @@
+
+body{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6a8f96+0,383154+100 */
+  background: #6a8f96; /* Old browsers */
+  background: -moz-linear-gradient(top, #6a8f96 0%, #383154 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #6a8f96 0%,#383154 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #6a8f96 0%,#383154 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a8f96', endColorstr='#383154',GradientType=0 ); /* IE6-9 */
+
+  /*background-image: url('../img/patternBG.jpg');*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.row{
+  margin-top:30px;
+}
+  .chat .messages{
+    border: 1px solid #ccc;
+    width:100%;
+    height:350px;
+    padding:10px;
+    overflow-y: scroll;
+    background-color:white;
+
+  }
+
+  .chat .entry{
+
+    width:100%;
+    height: 40px;
+    padding:5px;
+    margin-top: 5px;
+
+  }
+  .chat .messages{
+      margin:auto;
+       width: 100%;
+  }
+      .chat .message a{
+        color:#6181dd;
+      }
+      .chat .message p{
+        margin: 5px 0px;
+      }
+
+hr{
+  border-color: #cbc9c9;
+  width: 95%;
+}
